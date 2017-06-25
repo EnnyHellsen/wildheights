@@ -1,0 +1,145 @@
+#menu-logo2 {
+  margin-top: 15px;
+  margin-left: 3%;
+  font-size: 30px;
+  float: left;
+  opacity: 0;
+}
+
+/* SUPPORT US */
+#top-div-support {
+  width: 100%;
+  height: 530px;
+  background-image: url('photos/kiss.jpg');
+  background-position: left;
+  background-size: 100%;
+  padding-top: 10px;
+}
+
+#support-top {
+  width: 100%;
+  height: 270px;
+  background-color: #ff6b1b;
+  color: white;
+  display: inline-block;
+}
+
+.pages-first-h1 {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-size: 50px;
+  width: 60%;
+  float: left;
+}
+
+.pages-first-p {
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 60%;
+}
+
+#donate {
+  width: 100%;
+  height: 300px;
+  padding-top: 30px;
+  background-color: #eeeedf;
+  display: inline-block;
+  float: left;
+}
+
+#instagram {
+  width: 100%;
+  height: 800px;
+  padding-top: 30px;
+  background-color: #eeeedf;
+  display: inline-block;
+  float:left;
+}
+
+#instagram-pictures{
+  width: 95%;
+  list-style:none;
+  float: left;
+  display: inline-block;
+  margin-left: 2.2%;
+}
+#instagram-pictures li{
+  float: left;
+  width: 235px;
+  height: 235px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+#instagram-pictures li img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+#button-donate {
+  color: white;
+  background-color: #ff6b1b;
+
+}
+
+
+#donate h1, #donate h2, #donate p, #instagram h1, #instagram h2 {
+  margin-left: 5%;
+}
+
+/* STORIES */
+
+#top-div-stories {
+  width: 100%;
+  height: 530px;
+  background-image: url('photos/kids2.jpg');
+  background-position: left;
+  background-size: 100%;
+  padding-top: 10px;
+}
+
+#stories-top {
+  width: 100%;
+  height: 270px;
+  background-color: #0291ae;
+  color: white;
+  display: inline-block;
+}
+
+.stories {
+  width: 50%;
+  height: 580px;
+  background-color: #eeeedf;
+  display: inline-block;
+  float: left;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.story-text, .story-text2 {
+  margin: auto;
+  width: 70%;
+}
+
+.story-picture, .story-picture2 {
+  width: 70%;
+}
+
+/* RESPONSIVE TO OTHER DEVICES */
+@media screen and (max-width: 1000px) {
+
+  .stories {
+    height: 380px;
+  }
+
+  #instagram-pictures li img{
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  #instagram-pictures li{
+    margin-right: 0%;
+    margin-bottom: 0%;
+  }
+}

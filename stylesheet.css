@@ -1,0 +1,431 @@
+body {
+  font-family: 'El Messiri', sans-serif;
+  margin-left: -1%;
+  margin-top: -1%;
+  width: 101%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu {
+  height: 70px;
+  width: 100%;
+  color: white;
+  display: inline-block;
+  position: fixed;
+  z-index: 1;
+  padding-left: 1%;
+}
+
+#menu-logo {
+  margin-top: 15px;
+  margin-left: 3%;
+  font-size: 30px;
+  float: left;
+  opacity: 0;
+}
+
+#menu p {
+	display: inline-block;
+	position: relative;
+  cursor: pointer;
+  padding-top: 4px;
+  float: right;
+  font-size: 19px;
+  margin-right: 2%;
+  margin-left: 1%;
+}
+
+#menu a {
+  color: white;
+}
+
+.underline-animation:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .2s ease, background-color .2s ease;
+}
+.underline-animation:hover:after {
+	width: 100%;
+	background: white;
+}
+
+#blog-button {
+  width: 65px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 5%;
+  float: right;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#blog-button p {
+  margin-top: 1px;
+  padding-right: 7px;
+}
+
+#blog-button:hover {
+  background-color: white;
+  color: black;
+}
+
+#top-div {
+  width: 100%;
+  background-image: url('photos/orphanage-flip.jpg');
+  background-position: top;
+  background-size: 100%;
+  padding-top: 10px;
+}
+
+#wild-heights {
+  font-size: 80px;
+  font-family: 'El Messiri', sans-serif;
+  color: white;
+  margin-left: 90px;
+  margin-top: 0px;
+  padding-top: 40px;
+}
+
+#logo-top {
+  height: 50px;
+}
+
+#head {
+  width: 50%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#head p {
+  padding-top: 120px;
+  color: white;
+  font-size: 20px;
+  margin-left: 110px;
+  width: 550px;
+}
+
+#button {
+  width: 170px;
+  height: 45px;
+  padding-top: 10px;
+  background-color: #ff6b1b;
+  font-size: 25px;
+  border-radius: 5%;
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 90px;
+
+}
+
+
+#read-more {
+  width: 260px;
+  height: 65px;
+  border-radius: 3%;
+  padding-top: 20px;
+  background-color: #ff9800;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+
+}
+
+#stripe {
+  background-color: #ff9800;
+  width: 100%;
+  float: left;
+  height: 25px;
+}
+
+
+/* PAGE */
+
+#right, #left {
+  height: 400px;
+  width: 50%;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#right {
+  float: right;
+  background-color: #ff6b1b;
+}
+
+#left {
+  float: left;
+  background-color: #0291ae;
+}
+
+#left p {
+  font-size: 15px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#right p {
+  font-size: 15px;
+  margin-top: -30px;
+}
+
+#map {
+  height: 50%;
+  margin-top: 1%;
+}
+
+#help-button {
+  color: #0291ae;
+  margin-top: 10%;
+}
+
+
+#about {
+  height: 350px;
+  width: 100%;
+  background-color: #eeeedf;
+  display: inline-block;
+  float: left;
+}
+
+#about-text {
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+#about-text h1 {
+  font-size: 40px;
+}
+
+#about-picture {
+  height: 100%;
+  float: right;
+}
+
+
+
+#our-story {
+  width: 100%;
+  height: 350px;
+  background-color: #ff6b1b;
+  color: white;
+  display: inline-block;
+  float: left;
+}
+
+#our-story h1 {
+  font-size: 40px;
+  float: left;
+  display: block;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+#our-story p {
+  float: left;
+  display: block;
+  margin-left: 5%;
+  width: 65%;
+}
+
+i {
+  font-size: 25px;
+}
+
+#story-logo {
+  float: right;
+  margin-right: 5%;
+  margin-top: 7%;
+  width: 15%;
+}
+
+#founders {
+  height: 510px;
+  width: 100%;
+  background-color: #eeeedf;
+  display: inline-block;
+  float: left;
+}
+
+.founder {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.founder:first-child {
+  margin-left: 1%;
+}
+
+.founder-picture {
+  margin-top: 13%;
+  display: inline-block;
+  width: 60%;
+  border-radius: 100%;
+}
+
+
+
+#call-to-actions {
+  width: 100%;
+  height: 400px;
+  background-color: #0291ae;
+  display: inline-block;
+  color: white;
+  float: left;
+}
+
+
+
+
+#footer {
+  width: 100%;
+  height: 450px;
+  background-color: #ff6b1b;
+  color: #eddcc6;
+  float: left;
+  display: inline-block;
+}
+
+#footer-right {
+  width: 15%;
+  float: right;
+  padding-right: 5%;
+  margin-top: 4%;
+}
+
+#wrapper-buttons {
+  width: 15%;
+  margin-top: 5%;
+  font-size: 19px;
+  float: left;
+  margin-left: 7%;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+  background-color: white;
+  font-size: 25px;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#button1, #button2 {
+  color: #ff6b1b;
+  background-color: #eddcc6;
+}
+
+#wrapper-image-text {
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.5%;
+}
+
+#wrapper-image-text p {
+  font-size: 16px;
+  margin-top: -20px;
+  margin-bottom: 70px;
+  border-bottom: 2px solid #eddcc6;
+  padding-bottom: 20px;
+}
+
+
+
+/* Email form */
+.email-input {
+  border-radius: 5%;
+  border: none;
+  margin-bottom: 10px;
+  color: #ff6b1b;
+  background-color: #eddcc6;
+  font-style: italic;
+}
+
+#name, #email {
+  height: 40px;
+  width: 200px;
+}
+
+#comment {
+  height: 100px;
+  width: 200px;
+}
+
+#email-input {
+  height: 60px;
+  width: 150px;
+  font-style: normal;
+}
+
+
+#footer-second {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background-color: #ff9800;
+  display: inline-block;
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 13px;
+}
+
+#footer-second a {
+  color: #ff6b1b;
+  font-size: 14px;
+}
+
+
+/* RESPONSIVE TO OTHER DEVICES */
+@media screen and (max-width: 1000px) {
+
+    #wild-heights {
+      font-size: 40px;
+      margin-left: 80px;
+    }
+
+    #logo-top {
+      height: 30px;
+    }
+
+    #menu p {
+      font-size: 17px;
+    }
+
+    #about {
+      height: 310px;
+    }
+
+    #founders {
+      height: 380px;
+    }
+}
